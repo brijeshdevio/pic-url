@@ -37,3 +37,34 @@ POST {{BASE_URL}}/api/auth/logout
 ### Get current user profile
 GET {{BASE_URL}}/api/users/profile
 
+
+### Create project
+POST {{BASE_URL}}/api/projects
+Content-Type: application/json
+
+{
+    "name": "PicURL",
+    "expireAt": "2026-04-31T23:59:59.999Z"
+}
+
+
+### Get all projects
+GET {{BASE_URL}}/api/projects
+
+
+### Get Project
+GET {{BASE_URL}}/api/projects/cmnlp61m000004wcpcw71iyiy
+
+
+### Update project
+PATCH {{BASE_URL}}/api/projects/cmlxo7ljk0000v4cp538kwal1
+Content-Type: application/json
+
+{
+    "name": "SnapURL"
+}
+
+
+### Delete Project
+DELETE {{BASE_URL}}/api/projects/cmnlp61m000004wcpcw71iyiy
+
