@@ -127,6 +127,9 @@ export class ProjectService {
           usedCount: { increment: 1 },
           lastUsedAt: new Date(),
         },
+        select: {
+          id: true,
+        },
       });
       return project.id;
     } catch (error: unknown) {

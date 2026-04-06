@@ -7,6 +7,10 @@ const envSchema = z.object({
   DATABASE_URL: z.url(),
   JWT_SECRET: z.string().min(32),
   FRONTEND: z.url(),
+  APPWRITE_ENDPOINT: z.url(),
+  APPWRITE_PROJECT_ID: z.string(),
+  APPWRITE_API_KEY: z.string(),
+  APPWRITE_BUCKET_ID: z.string(),
 });
 
 const parsed = envSchema.safeParse(process.env);

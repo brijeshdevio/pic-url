@@ -33,7 +33,7 @@ export const appErrorMiddleware = (
   if (err instanceof HttpException) {
     return apiResponse(res, err.toResponse());
   }
-
+  console.log(err);
   apiResponse(res, {
     success: false,
     status: 500,

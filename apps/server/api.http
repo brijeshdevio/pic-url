@@ -57,7 +57,7 @@ GET {{BASE_URL}}/api/projects/cmnlp61m000004wcpcw71iyiy
 
 
 ### Update project
-PATCH {{BASE_URL}}/api/projects/cmlxo7ljk0000v4cp538kwal1
+PATCH {{BASE_URL}}/api/projects/cmnlp61m000004wcpcw71iyiy
 Content-Type: application/json
 
 {
@@ -66,5 +66,5 @@ Content-Type: application/json
 
 
 ### Delete Project
-DELETE {{BASE_URL}}/api/projects/cmnlp61m000004wcpcw71iyiy
+DELETE {{BASE_URL}}/api/projects/cmnlo1bo00000axcp0bdc47hd
 
