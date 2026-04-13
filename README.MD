@@ -1,14 +1,14 @@
-# SnapURL 🚀
+# PicURL 🚀
 
 **Upload images. Get URLs. Done.**
 
-SnapURL is a developer-focused **SaaS image upload and delivery platform** designed for avatars, social media assets, and application-only image usage. It provides a secure, fast, and simple API to upload images and retrieve public URLs, with full dashboard, API key management, and authentication.
+PicURL is a developer-focused **SaaS image upload and delivery platform** designed for avatars, social media assets, and application-only image usage. It provides a secure, fast, and simple API to upload images and retrieve public URLs, with full dashboard, API key management, and authentication.
 
 ---
 
 ## 🌐 Live Preview
 
-> [SnapURL](https://snap-url-delta.vercel.app/)
+> [PicURL](https://snap-url-delta.vercel.app/)
 
 ---
 
@@ -188,7 +188,7 @@ Used to generate **upload tokens** for secure API access.
 ## 🧪 Example cURL Upload
 
 ```bash
-curl -X POST https://api.snapurl.com/api/uploads \
+curl -X POST https://api.picurl.com/api/uploads \
   -H "X-Upload-Token: ssk_UPLOAD_TOKEN" \
   -F "file=@avatar.jpg"
 ```

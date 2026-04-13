@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center justify-between max-md:w-1/4">
             <Link to="/" className="logo">
-              <span className="text-xl">SnapURL</span>
+              <span className="text-xl">PicURL</span>
             </Link>
           </div>
 

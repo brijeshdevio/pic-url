@@ -65,7 +65,7 @@ export function Playground() {
       <div className="text-center">
         <h1 className="mb-4 text-4xl font-bold">API Playground</h1>
         <p className="text-base-content/70 mx-auto max-w-2xl">
-          Test the SnapURL upload API directly from your browser. Use your
+          Test the PicURL upload API directly from your browser. Use your
           project upload key to send images to our servers.
         </p>
       </div>
@@ -122,7 +122,7 @@ export function Playground() {
               isDisabled={!file || !uploadKey}
             >
               <Icon icon="tabler:rocket" className="mr-2 h-5 w-5" />
-              Upload to SnapURL
+              Upload to PicURL
             </Button>
           </form>
 

@@ -21,7 +21,7 @@ export function Docs() {
               <span>Developer Documentation</span>
             </div>
             <h1 className="mb-6 text-4xl font-bold tracking-tight lg:text-6xl">
-              SnapURL <span className="text-primary">API</span>
+              PicURL <span className="text-primary">API</span>
             </h1>
             <p className="text-base-content/70 mb-8 text-xl leading-relaxed">
               The simplest way to upload and manage images for your logos,
@@ -89,9 +89,9 @@ export function Docs() {
               </h2>
               <div className="prose prose-lg text-base-content/80 max-w-none">
                 <p>
-                  SnapURL is a SaaS web platform designed for developers to
+                  PicURL is a SaaS web platform designed for developers to
                   upload and manage images effortlessly. Whether you need to
-                  host logos, user avatars, or social media assets, SnapURL
+                  host logos, user avatars, or social media assets, PicURL
                   provides a secure, fast, and simple API to get the job done.
                 </p>
                 <div className="my-10 grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -131,7 +131,7 @@ export function Docs() {
               </h2>
               <div className="space-y-6">
                 <p className="text-base-content/70 text-lg">
-                  Follow these steps to start using SnapURL in your project:
+                  Follow these steps to start using PicURL in your project:
                 </p>
                 <ol className="steps steps-vertical space-y-8">
                   <li className="step step-primary min-h-0 flex-col items-start text-left">
@@ -174,7 +174,7 @@ export function Docs() {
               </h2>
               <div className="space-y-6">
                 <p className="text-base-content/70 text-lg">
-                  SnapURL uses API keys to authenticate projects. Only upload
+                  PicURL uses API keys to authenticate projects. Only upload
                   requests include the <code>x-upload-key</code> header.
                 </p>
                 <div className="mockup-code bg-neutral text-neutral-content shadow-xl">
